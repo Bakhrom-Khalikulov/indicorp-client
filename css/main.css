@@ -114,6 +114,7 @@ a{
     min-height: 793px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 192px;
     background-image: url(../images/hero-background.jpg);
     background-repeat: no-repeat;
 }
@@ -156,6 +157,7 @@ a{
 
 
 /* *********** HERO STYLE STARTS *********** */
+
 .hero-section__wrapper{
     width: 100%;
     max-width: 509px;
@@ -264,8 +266,102 @@ a{
     color: #737373; 
 }
 
-
-
-
-
 /* *********** HERO STYLE ENDS *********** */
+
+
+
+/* *********** CHOOSE STYLE STARTS *********** */
+.choose-section{
+    margin-bottom: 205px;
+}
+
+
+.choose-section__title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.choose-section__desc{
+    max-width: 511px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.choose-section__list{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.choose-section__item{
+    width: 100%;
+    max-width: 230px;
+    min-height: 185px;
+    background-color: #fff;
+}
+
+.choose-section__item::before{
+    position: absolute;
+    left: 109px;
+    top: 32px;
+    content: url(../images/choose1.svg);
+}
+
+.choose-section__item:nth-child(2)::before{
+    left: 358px;
+    top: 43px;
+    content: url(../images/choose2.svg);
+}
+
+.choose-section__item:nth-child(3)::before{
+    left: 607px;
+    top: 28px;
+    content: url(../images/choose3.svg);
+}
+
+.choose-section__item:nth-child(4)::before{
+    left: 852px;
+    top: 28px;
+    content: url(../images/choose4.svg);
+}
+
+
+.choose-section__number{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 88px;
+}
+
+.choose-section__subdesc{
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+
+
+
+
+
+
+
+
+/* *********** CHOOSE STYLE ENDS *********** */
