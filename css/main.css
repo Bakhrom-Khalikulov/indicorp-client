@@ -436,3 +436,141 @@ a{
 }
 
 /* *********** PRACTICE STYLE ENDS *********** */
+
+
+/* *********** SERVICE STYLE STARTS *********** */
+.service-section{
+    margin-bottom: 100px;
+}
+
+.service-section__title{
+    width: 100%;
+    max-width: 480px;
+    min-height: 114px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.service-section__desc{
+    width: 100%;
+    max-width: 511px;
+    min-height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.service-section__video{
+    display: flex;
+    align-items: center;
+}
+
+.service-section__vdo{
+    margin-right: 90px;
+}
+
+.service-section__subtext{
+    position: relative;
+}
+
+.service-section__subtitle{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.service-section__subdesc{
+    margin-top: 0;
+    margin-bottom: 51px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.service-section__list{
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 42px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.service-section__list::before{
+    position: absolute;
+    content: url(../images/service1_icon.svg);
+    left: 0px;
+}
+
+.service-section__list2::before{
+    position: absolute;
+    content: url(../images/service2_icon.svg);
+    left: 0px;
+}
+
+.service-section__list2{
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 42px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.service-section__item{
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+.service-section__item2{
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-left: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+
+/* *********** SERVICE STYLE ENDS *********** */
