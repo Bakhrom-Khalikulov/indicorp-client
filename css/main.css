@@ -795,8 +795,52 @@ a{
     content: url(../images/contact3.svg);
 }
 
-
-
-
-
 /* *********** CONTACT STYLE ENDS *********** */
+
+
+/* *********** CONSULTING STYLE STARTS *********** */
+.consulting-section{
+    margin-bottom: 42px;
+    padding-top: 40px;
+}
+
+.consulting-section__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.consulting-section__title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.consulting-section__desc{
+    margin-top: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.consulting-section__btn{
+    margin-top: 0;
+    padding: 15px 40px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #FFA62B;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+/* *********** CONSULTING STYLE ENDS *********** */
