@@ -579,7 +579,7 @@ a{
 
 /* *********** SUBSCRIBE STYLE STARTS *********** */
 .subscribe-section{
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     background: linear-gradient(to bottom, #FAFAFA 76%, #252B42 40% );
 }
 
@@ -645,8 +645,158 @@ a{
     color: #fff;
 }
 
-
-
-
-
 /* *********** SUBSCRIBE STYLE ENDS *********** */
+
+
+/* *********** CONTACT STYLE STARTS *********** */
+.contact-section{
+    margin-bottom: 148px;
+}
+
+.contact-section__wrapper{
+    position: relative;
+}
+
+.contact-section__title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.contact-section__desc{
+    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 470px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.contact-section__list{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section__item{
+    position: relative;
+    align-items: center;
+    text-align: center; 
+    background-color: #fff;
+    padding: 137px 54px 50px 54px;
+}
+
+.contact-section__item2{
+    align-items: center;
+    text-align: center; 
+    background-color: #252B42;
+    padding: 137px 54px 50px 54px; 
+}
+
+.contact-section__email{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.contact-section__email2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.contact-section__support{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.contact-section__support2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #fff;
+}
+
+.contact-section__submit{
+    margin-top: 0;
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.contact-section__submit2{
+    margin-top: 0;
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.contact-section__item::before{
+    position: absolute;
+    content: url(../images/contact1.svg);
+    top: 42px;
+    left: 133px;
+}
+
+.contact-section__item2::before{
+    position: absolute;
+    content: url(../images/contact2.svg);
+    top: 230px;
+    left: 475px;
+}
+
+.contact-section__item:nth-child(3)::before{
+    position: absolute;
+    content: url(../images/contact3.svg);
+}
+
+
+
+
+
+/* *********** CONTACT STYLE ENDS *********** */
