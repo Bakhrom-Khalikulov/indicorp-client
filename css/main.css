@@ -440,7 +440,9 @@ a{
 
 /* *********** SERVICE STYLE STARTS *********** */
 .service-section{
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
 }
 
 .service-section__title{
@@ -571,6 +573,80 @@ a{
     color: #737373;
 }
 
-
-
 /* *********** SERVICE STYLE ENDS *********** */
+
+
+
+/* *********** SUBSCRIBE STYLE STARTS *********** */
+.subscribe-section{
+    margin-bottom: 30px;
+    background: linear-gradient(to bottom, #FAFAFA 76%, #252B42 40% );
+}
+
+.subscribe-section__wrapper{
+    position: relative;
+}
+
+.subscribe-section__logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.subscribe-section-email{
+    display: flex;
+    justify-content: space-between;
+    background-color: #16697A;
+    margin-bottom: 20px;
+}
+
+.subscribe-section__text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.subscribe-section__inside{
+    right: 48px;
+    bottom: 50px;
+    position: absolute;
+}
+
+.subscribe-section--input{
+    position: relative;
+    left: -80px;
+    padding-top: 20px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #737373;
+}
+
+.subscribe-section__btn{
+    position: absolute;
+    left: 270px;
+    padding: 20px 22px;
+    background: #FFA62B;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+
+/* *********** SUBSCRIBE STYLE ENDS *********** */
